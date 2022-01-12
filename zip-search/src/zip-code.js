@@ -1,6 +1,8 @@
 import React, {useState} from "react";
-function ZipCode (props) {
+function ZipCode (props)
+ {
     const {zip, setZip, list, setList} = props
-    return(<><h2>{zip}</h2></>)
+    return(<><h2>{zip}<button onclick="myFunction()">Click me</button></h2></>)
+    
 }
 export default ZipCode;
